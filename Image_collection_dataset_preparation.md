@@ -1,4 +1,4 @@
-### Custom Dataset for Images
+## Custom Dataset for Images
 
 * Structured In Subfolders.
 
@@ -10,3 +10,4 @@
       |    |-- image1.jpg
       |    |-- image2.jpg
 
+  ### Methods to Load these data:
