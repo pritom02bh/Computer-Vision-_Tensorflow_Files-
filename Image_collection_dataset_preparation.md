@@ -17,3 +17,6 @@
       from tensorflow import keras
       from tensorflow.keras import layers
       from tensorflow.keras.preprocessing.image import ImageDataGenerator
+      
+  #### Method One:
+      
