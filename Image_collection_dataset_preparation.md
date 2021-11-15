@@ -1,3 +1,3 @@
 ### Custom Dataset for Images
 
-..*  Structured In Subfolders.
+* Structured In Subfolders.
