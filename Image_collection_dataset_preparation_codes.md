@@ -33,4 +33,39 @@
   ```
       
   #### Method One:
+  
+      ```
+        ds_train = tf.keras.preprocessing.image_dataset_from_directory(
+               'data/mnist_subfolders/',
+               labels = 'inferred',
+               label_mode = "int",        # Categorical, Binary
+               # class_mode = ['0', '1', '2', ...]
+               color_mode = 'rgb',
+               image_size = (image_height, image_width),
+               shuffle = True,
+               validation_split = 0.1,
+               subset = 'training',
+               )
+               
+        ds_validation = tf.keras.preprocessing.image_dataset_from_directory(
+               'data/mnist_subfolders/',
+               labels = 'inferred',
+               label_mode = "int",        # Categorical, Binary
+               # class_mode = ['0', '1', '2', ...]
+               color_mode = 'rgb',
+               image_size = (image_height, image_width),   # Reshape if needed
+               shuffle = True,
+               validation_split = 0.1,
+               subset = 'validation',
+               )
+               
+              
+               
+               
+               
+               
+               
+               
+               
+               
       
