@@ -34,7 +34,7 @@
       
   #### Method One:
   
-      ```
+   
         ds_train = tf.keras.preprocessing.image_dataset_from_directory(
                'data/mnist_subfolders/',
                labels = 'inferred',
